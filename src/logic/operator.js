@@ -5,7 +5,6 @@ export default function operate(numberOne, numberTwo, operation) {
   const two = Big(numberTwo);
 
   if (operation === '+') {
-    console.log('lll');
     return one.plus(two).toString();
   }
   if (operation === '-') {

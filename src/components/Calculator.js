@@ -15,7 +15,6 @@ class Calculator extends React.Component {
 
   handler(e) {
     this.setState((state) => calculate(state, e.target.innerText));
-    console.log(this.state);
   }
 
   render() {

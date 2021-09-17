@@ -14,7 +14,6 @@ function isNumber(item) {
  *   operation:String  +, -, etc.
  */
 export default function calculate(obj, buttonName) {
-  console.log('kk');
   if (buttonName === 'AC') {
     return {
       total: null,
@@ -24,7 +23,6 @@ export default function calculate(obj, buttonName) {
   }
 
   if (isNumber(buttonName)) {
-    console.log('ppp');
     if (buttonName === '0' && obj.next === '0') {
       return {};
     }
@@ -37,7 +35,6 @@ export default function calculate(obj, buttonName) {
     }
     // If there is no operation, update next and clear the value
     if (obj.next) {
-      console.log('looi');
       return {
         next: obj.next + buttonName,
         total: null,
