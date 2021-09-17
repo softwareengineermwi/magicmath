@@ -1,11 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-class Key extends React.Component {
-  render(){
-    return <button onClick={this.props.handler} type="button" className={this.props.classes}>{this.props.name}</button>;
-  }
-}
+const Key = ({ name, handler, classes }) => (<button onClick={handler} type="button" className={classes}>{name}</button>);
 
 Key.propTypes = {
   name: PropTypes.string,
