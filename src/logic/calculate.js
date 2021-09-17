@@ -14,6 +14,7 @@ function isNumber(item) {
  *   operation:String  +, -, etc.
  */
 export default function calculate(obj, buttonName) {
+  console.log('kk');
   if (buttonName === 'AC') {
     return {
       total: null,
@@ -23,6 +24,7 @@ export default function calculate(obj, buttonName) {
   }
 
   if (isNumber(buttonName)) {
+    console.log('ppp');
     if (buttonName === '0' && obj.next === '0') {
       return {};
     }
@@ -35,11 +37,13 @@ export default function calculate(obj, buttonName) {
     }
     // If there is no operation, update next and clear the value
     if (obj.next) {
+      console.log('looi');
       return {
         next: obj.next + buttonName,
         total: null,
       };
     }
+
     return {
       next: buttonName,
       total: null,
@@ -97,11 +101,13 @@ export default function calculate(obj, buttonName) {
 
   // User pressed an operation button and there is an existing operation
   if (obj.operation) {
-    return {
-      total: operate(obj.total, obj.next, obj.operation),
-      next: null,
-      operation: buttonName,
-    };
+    if (obj.next !== null) {
+      return {
+        total: operate(obj.total, obj.next, obj.operation),
+        next: null,
+        operation: buttonName,
+      };
+    }
   }
 
   // no operation yet, but the user typed one
