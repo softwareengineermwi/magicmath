@@ -1,4 +1,4 @@
-# MathMagic
+# MagicMath
 
 In this project, I have built a simle web app based Calculator. I've achieved this by using the React.
 
@@ -10,7 +10,7 @@ In this project, I have built a simle web app based Calculator. I've achieved th
 
 - [Download](Clone the repository to your machine)
 
-- $ git clone https://github.com/softwareengineermwi/mathmagic/tree/dev
+- $ git clone https://github.com/softwareengineermwi/magicmath/tree/dev
 
 - Navigate to the project folder after switching to the 'development' branch and execute the liveServer. You can find this project on your browser where it will be hosted locally.
 
