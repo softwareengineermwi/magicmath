@@ -17,9 +17,14 @@ const Calculator = () => {
   const { next, total } = state;
 
   return (
-    <div className="grid container max-width-sm">
-      <Output value={next || total || '0'} />
+    <div className="grid container">
+      <div className="col-6">
+        <h3>Let`s do some math</h3>
+      </div>
+      <div className="col-6 grid container max-width-sm">
+        <Output value={next || total || '0'} />
       <Input handler={handleClick} />
+      </div>
     </div>
   );
 };
