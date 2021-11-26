@@ -1,4 +1,3 @@
-/* eslint-disable no-unused-vars */
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
@@ -9,4 +8,3 @@ ReactDOM.render(
   </React.StrictMode>,
   document.getElementById('root'),
 );
-/* eslint-enable no-unused-vars */
