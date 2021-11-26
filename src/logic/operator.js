@@ -21,7 +21,7 @@ export default function operate(numberOne, numberTwo, operation) {
   }
   if (operation === '%') {
     if (numberTwo === '0') {
-      return 'Can\'t divide by 0';
+      return '0 is an invalid operand for this operation';
     }
     return one.mod(two).toString();
   }
