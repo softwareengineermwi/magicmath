@@ -40,3 +40,5 @@ You can now view the development server at `localhost:8080`.
 - Linkedin: [Mwila Kaunda](https://www.linkedin.com/in/mwila-kaunda-5479b2168)
 
 ## Show your support
+
+Give a ⭐️ if you like this project!
