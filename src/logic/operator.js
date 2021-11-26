@@ -20,6 +20,9 @@ export default function operate(numberOne, numberTwo, operation) {
     return one.div(two).toString();
   }
   if (operation === '%') {
+    if (numberTwo === '0') {
+      return 'Can\'t divide by 0';
+    }
     return one.mod(two).toString();
   }
   throw Error(`Unknown operation '${operation}'`);
