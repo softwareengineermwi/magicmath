@@ -23,7 +23,7 @@ const Calculator = () => {
 
       <div className="col-6 grid container max-width-sm">
         <div className="col-12 bg-contrast-low text-right padding-md">
-          <input className="resultscreen" value={next || total || screen || 0} />
+          <h4>{next || total || '0'}</h4>
         </div>
 
         <Input handler={handleClick} />

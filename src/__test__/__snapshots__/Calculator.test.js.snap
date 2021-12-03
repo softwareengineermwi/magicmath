@@ -18,10 +18,9 @@ exports[`Test Calculator Components Should match snapshot 1`] = `
     <div
       className="col-12 bg-contrast-low text-right padding-md"
     >
-      <input
-        className="resultscreen"
-        value={Screen {}}
-      />
+      <h4>
+        0
+      </h4>
     </div>
     <div
       className="grid col-12"
