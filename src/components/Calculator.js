@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-// import Output from './Output';
 import Input from './Input';
 import calculate from '../logic/calculate';
 
