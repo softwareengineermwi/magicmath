@@ -1,8 +1,10 @@
+/* eslint-disable no-undef */
+import React from 'react';
 import '@testing-library/jest-dom'
 import Home from '../components/Home'
 import renderer from 'react-test-renderer';
 import ReactDOM from 'react-dom';
-import { render, screen } from '@testing-library/react'
+import { render } from '@testing-library/react'
 
 describe('Test Home Components', () => {
   it('Should render without error', () => {
