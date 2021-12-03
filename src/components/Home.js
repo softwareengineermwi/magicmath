@@ -1,7 +1,7 @@
 import React from 'react';
 
 const HomePage = () => (
-  <div>
+  <div data-testid="homepage">
     <div className="padding-y-lg">
       <h3>
         Welcome to our page

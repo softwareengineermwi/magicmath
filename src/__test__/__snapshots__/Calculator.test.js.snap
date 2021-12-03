@@ -1,0 +1,165 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Calculator Components Should match snapshot 1`] = `
+<div
+  className="grid container"
+  data-testid="mycalc"
+>
+  <div
+    className="col-6"
+  >
+    <h3>
+      Let\`s do some math
+    </h3>
+  </div>
+  <div
+    className="col-6 grid container max-width-sm"
+  >
+    <div
+      className="col-12 bg-contrast-low text-right padding-md"
+    >
+      <input
+        className="resultscreen"
+        value={Screen {}}
+      />
+    </div>
+    <div
+      className="grid col-12"
+    >
+      <button
+        className="col-3 btn btn--subtle padding-y-md"
+        onClick={[Function]}
+        type="button"
+      >
+        AC
+      </button>
+      <button
+        className="col-3 btn btn--subtle padding-y-md"
+        onClick={[Function]}
+        type="button"
+      >
+        +/-
+      </button>
+      <button
+        className="col-3 btn btn--subtle padding-y-md"
+        onClick={[Function]}
+        type="button"
+      >
+        %
+      </button>
+      <button
+        className="col-3 btn btn--subtle padding-y-md foo"
+        onClick={[Function]}
+        type="button"
+      >
+        ÷
+      </button>
+      <button
+        className="col-3 btn btn--subtle padding-y-md"
+        onClick={[Function]}
+        type="button"
+      >
+        7
+      </button>
+      <button
+        className="col-3 btn btn--subtle padding-y-md"
+        onClick={[Function]}
+        type="button"
+      >
+        8
+      </button>
+      <button
+        className="col-3 btn btn--subtle padding-y-md"
+        onClick={[Function]}
+        type="button"
+      >
+        9
+      </button>
+      <button
+        className="col-3 btn btn--subtle padding-y-md foo"
+        onClick={[Function]}
+        type="button"
+      >
+        x
+      </button>
+      <button
+        className="col-3 btn btn--subtle padding-y-md"
+        onClick={[Function]}
+        type="button"
+      >
+        4
+      </button>
+      <button
+        className="col-3 btn btn--subtle padding-y-md"
+        onClick={[Function]}
+        type="button"
+      >
+        5
+      </button>
+      <button
+        className="col-3 btn btn--subtle padding-y-md"
+        onClick={[Function]}
+        type="button"
+      >
+        6
+      </button>
+      <button
+        className="col-3 btn btn--subtle padding-y-md foo"
+        onClick={[Function]}
+        type="button"
+      >
+        -
+      </button>
+      <button
+        className="col-3 btn btn--subtle padding-y-md"
+        onClick={[Function]}
+        type="button"
+      >
+        1
+      </button>
+      <button
+        className="col-3 btn btn--subtle padding-y-md"
+        onClick={[Function]}
+        type="button"
+      >
+        2
+      </button>
+      <button
+        className="col-3 btn btn--subtle padding-y-md"
+        onClick={[Function]}
+        type="button"
+      >
+        3
+      </button>
+      <button
+        className="col-3 btn btn--subtle padding-y-md foo"
+        onClick={[Function]}
+        type="button"
+      >
+        +
+      </button>
+      <button
+        className="col-6 btn btn--subtle padding-y-md"
+        onClick={[Function]}
+        type="button"
+      >
+        0
+      </button>
+      <button
+        className="col-3 btn btn--subtle padding-y-md"
+        onClick={[Function]}
+        type="button"
+      >
+        .
+      </button>
+      <button
+        className="col-3 btn btn--subtle padding-y-md foo"
+        onClick={[Function]}
+        type="button"
+      >
+        =
+      </button>
+    </div>
+  </div>
+</div>
+`;

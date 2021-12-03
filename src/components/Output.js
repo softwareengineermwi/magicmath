@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 const Output = ({ value }) => (
   <div className="col-12 bg-contrast-low text-right padding-md">
-    <h4>{value}</h4>
+    <h4 data-testid="result">{value}</h4>
   </div>
 );
 
